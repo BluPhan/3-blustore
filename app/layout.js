@@ -72,7 +72,10 @@ export default function RootLayout({ children }) {
               <div className="socials"></div>
               <p>
                 ©
-                <a href="https://www.bluphan.netlify.app" target="_blank">
+                <a
+                  href="https://bluphan-portfolio.netlify.app/"
+                  target="_blank"
+                >
                   BluPhan
                 </a>
                 2026
@@ -84,10 +87,15 @@ export default function RootLayout({ children }) {
                 🔥
               </p>
               <div className="social-links">
-                <Link href={"/"} target="_blank">
+                <Link href={"https://github.com/BluPhan"} target="_blank">
                   <i className="fa-brands fa-github"></i>
                 </Link>
-                <Link href={"/"} target="_blank">
+                <Link
+                  href={
+                    "https://www.facebook.com/profile.php?id=61575851100859"
+                  }
+                  target="_blank"
+                >
                   <i className="fa-brands fa-facebook"></i>
                 </Link>
               </div>
