@@ -50,10 +50,13 @@ export default function RootLayout({ children }) {
               <div className="links-container">
                 <div>
                   <h3>BluPhan</h3>
-                  <Link target="_blank" href={"/"}>
+                  <Link
+                    target="_blank"
+                    href={"https://bluphan-portfolio.netlify.app/"}
+                  >
                     BluPhan Hub
                   </Link>
-                  <Link target="_blank" href={"/"}>
+                  <Link target="_blank" href={"https://github.com/BluPhan"}>
                     Roadmap
                   </Link>
                 </div>
