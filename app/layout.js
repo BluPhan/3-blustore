@@ -7,7 +7,7 @@ import EmailInput from "@/components/Emailinput";
 import ProductsProvider from "@/context/ProductContext";
 
 export const metadata = {
-  title: "Blustore",
+  title: "Blusture",
   description: "A wonderful store for programmers and productivity!",
 };
 
